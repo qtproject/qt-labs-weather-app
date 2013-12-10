@@ -153,6 +153,8 @@ Item {
                 Layout.alignment: Qt.AlignBaseline
             }
             Separator {}
+            Accessible.role: Accessible.Button
+            Accessible.name: title1 + title2 ? (" " + title2) : "" + title3 ? (" " + title3) : ""
         }
         Rectangle {
             width: parent.width

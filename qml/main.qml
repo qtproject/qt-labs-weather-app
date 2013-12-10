@@ -173,6 +173,8 @@ ApplicationWindow {
             color: ApplicationInfo.colors.mediumGray
             verticalAlignment: Text.AlignVCenter
             horizontalAlignment: Text.AlignHCenter
+            Accessible.role: Accessible.StaticText
+            Accessible.name: statusBarMessage
         }
     }
 }
